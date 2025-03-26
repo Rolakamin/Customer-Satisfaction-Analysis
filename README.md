@@ -63,6 +63,12 @@ Only ratings 1 and 5 were explicitly defined in the original dataset. Ratings 2,
 - Which service factor (delivery experience, food quality, or delivery speed) has the greatest influence on customer satisfaction?
 - How many customers did not provide responses, and what impact does this have on the analysis?
 
+## Data Analysis and Visualization
+
+### DAX Measures
+
+To facilitate detailed analysis, the following DAX measures were created:
+
 
 
 
