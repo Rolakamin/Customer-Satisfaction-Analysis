@@ -52,7 +52,21 @@ Only ratings 1 and 5 were explicitly defined in the original dataset. Ratings 2,
 ## Tools
 **Power BI:** Creating DAX measures, and visualizing insights.
 
-**Power Query:** Data cleaning ,  transformation, and creating custom columns
+**Power Query:** Data cleaning , transformation, and creating custom columns.
+
+## Problem Statements
+
+- What is the overall customer satisfaction rate across all service areas?
+- How do customers rate their experience with delivery, food quality, and delivery speed?
+- What percentage of customers are satisfied, neutral, or dissatisfied across each service category?
+- What is the relationship between order accuracy and customer satisfaction?
+- Which service factor (delivery experience, food quality, or delivery speed) has the greatest influence on customer satisfaction?
+- How many customers did not provide responses, and what impact does this have on the analysis?
+
+
+
+
+
 
 
 
