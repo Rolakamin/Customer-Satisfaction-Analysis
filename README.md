@@ -49,5 +49,10 @@ For the Delivery_Experience, Food_Quality, and Delivery_Speed columns, customer 
 •	5 – Extremely Satisfied
 Only ratings 1 and 5 were explicitly defined in the original dataset. Ratings 2, 3, and 4 were introduced during the analysis to provide a more detailed breakdown of customer sentiment.
 
+## Tools
+**Power BI:** Creating DAX measures, and visualizing insights.
+**Power Query:** Data cleaning ,  transformation, and creating custom columns
+
+
 
 
