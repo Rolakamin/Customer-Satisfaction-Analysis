@@ -20,17 +20,6 @@ This analysis emphasizes four main areas of customer feedback: Delivery Experien
 The dataset used in this analysis was obtained from **Kaggle** and is titled **"Customer Satisfaction Survey at Kashmir Cafe."** It contains customer feedback on their delivery experience, food quality, delivery speed, and order accuracy.
 This dataset originally consisted of 10,616 rows and 5 columns, each representing different aspects of customer satisfaction.
 
-### Column Transformations
-
-The dataset initially contained five columns with detailed headers. For consistency and clarity, these columns were renamed during the data cleaning process. Below are the original column names and their corresponding transformed names:
-1.	Customer → Customer_ID
-2.	How satisfied were you with your overall delivery experience at Ali? → Delivery_Experience
-3.	How satisfied were you with the quality of food at Alis? → Food_Quality
-4.	How satisfied were you with the speed of delivery at Alis? → Delivery_Speed (originally renamed as Time, but revised for better clarity)
-5.	Was your order accurate? Please respond Yes or No → Correct_Order
-These transformations standardized the column names, making them easier to reference throughout the analysis.
-
-
 ### Column Descriptions / Data Dictionary
 
 1.	Customer_ID: A unique identifier for each customer.
@@ -62,6 +51,8 @@ Only ratings 1 and 5 were explicitly defined in the original dataset. Ratings 2,
 - What is the relationship between order accuracy and customer satisfaction?
 - Which service factor (delivery experience, food quality, or delivery speed) has the greatest influence on customer satisfaction?
 - How many customers did not provide responses, and what impact does this have on the analysis?
+
+## Data Cleaning and Transformation 
 
 ## Data Analysis and Visualization
 
