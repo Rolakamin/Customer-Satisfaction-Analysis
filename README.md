@@ -79,7 +79,7 @@ Data types were standardized to ensure accurate calculations in Power BI.
 
 Null values were replaced with the mode (most frequent value) of each column using Power Query.
 
-![Plant Performance Screenshot](https://github.com/Rolakamin/Supplier-Quality-and-Performance/blob/main/plant_Performance.png)
+![Delivery Experience Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/delivery_experience.png)
 
 The same method was applied to Food_Quality and Delivery_Speed.
 
