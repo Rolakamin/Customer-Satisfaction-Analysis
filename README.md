@@ -109,7 +109,11 @@ To enhance analysis, the following custom columns were created:
 - Delivery_Speed_Category
 
 ![Overall Satisfaction Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/overall_satisfaction.png)
- 
+
+![Delivery Experience Category Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/deliver_experience_category.png
+ )
+
+
 
 
 
