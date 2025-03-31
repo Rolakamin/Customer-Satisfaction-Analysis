@@ -120,6 +120,91 @@ To facilitate detailed analysis, the following DAX measures were created:
 Total Responses = DISTINCTCOUNT(Customer_survey_data[Customer_ID])
 ```
 
+2. Average Ratings - Mean values for Delivery Experience, Food Quality, and Delivery Speed.
+
+ ```DAX
+Avg Delivery Experience = AVERAGE(Customer_survey_data[Delivery_Experience])
+```
+
+ ```DAX
+Avg Food Quality = AVERAGE(Customer_survey_data[Food_Quality])
+```
+
+ ```DAX
+Avg Delivery Speed = AVERAGE(Customer_survey_data[Delivery_Speed])
+```
+
+3. Correct Order % - Percentage of accurately fulfilled orders.
+
+ ```DAX
+   Correct Order % = 
+DIVIDE(
+    COUNTAX(
+        FILTER(Customer_survey_data, Customer_survey_data[Correct_Order] = "Yes"), 
+        1
+    ),
+    [Total Responses],
+    0
+)
+```
+
+4.	Dissatisfied Customers - Count of customers who reported dissatisfaction.
+
+ ```DAX
+Dissatisfied Customers = 
+CALCULATE(
+    COUNT(Customer_survey_data[Customer_ID]), 
+    Customer_survey_data[Overall_Satisfaction] = "Not Satisfied"
+)
+```
+
+5. Satisfied Customers - Count of customers who reported satisfaction
+
+ ```DAX
+ Satisfied Customers = 
+CALCULATE(
+    COUNT(Customer_survey_data[Customer_ID]),
+    Customer_survey_data[Overall_Satisfaction] = "Satisfied"
+)
+```
+
+6. No Response Count - Number of customers who did not provide order accuracy feedback.
+
+ ```DAX
+No Response Count = 
+CALCULATE(
+    COUNT(Customer_survey_data[Customer_ID]), 
+    FILTER(Customer_survey_data, Customer_survey_data[Correct_Order] = "No Response")
+)
+```
+
+7.	Satisfaction Rate (%) - Percentage of satisfied customers.
+
+ ```DAX
+Satisfaction Rate % = 
+DIVIDE([Satisfied Customers], [Total Responses], 0)
+```
+
+8. Net Satisfaction Score (NSS) - Difference between satisfied and dissatisfied customers as a percentage of total responses.
+
+```DAX
+Net Satisfaction Score (NSS) = 
+DIVIDE(
+    [Satisfied Customers] - [Dissatisfied Customers], 
+    [Total Responses], 
+    0
+)
+```
+
+
+
+
+
+
+
+
+  
+
 
 
 
