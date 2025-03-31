@@ -81,6 +81,10 @@ Null values were replaced with the mode (most frequent value) of each column usi
 
 ![Delivery Experience Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/delivery_experience.png)
 
+![Delivery Experience Count Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/delivery_experience_count.png)
+
+
+
 The same method was applied to Food_Quality and Delivery_Speed.
 
 **Correct_Order** (660 blank rows):
