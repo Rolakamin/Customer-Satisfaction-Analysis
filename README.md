@@ -113,6 +113,12 @@ To enhance analysis, the following custom columns were created:
 ![Delivery Experience Category Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/deliver_experience_category.png
  )
 
+ ![Food Quality Category Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/food_quality_category.png)
+
+
+
+ 
+
 
 
 
