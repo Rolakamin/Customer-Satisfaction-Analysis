@@ -115,6 +115,8 @@ To enhance analysis, the following custom columns were created:
 
  ![Food Quality Category Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/food_quality_category.png)
 
+![Delivery Speed Category Screenshot]( https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/delivery_speed_category.png
+)
 
 
  
