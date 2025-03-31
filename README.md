@@ -208,6 +208,11 @@ DIVIDE(
 ```
 
 
+### Data Visualization
+
+The customer satisfaction survey data was analyzed using Power BI and presented in a single-page dashboard. This dashboard provides insights into customer ratings, satisfaction levels, and key service factors influencing overall experience.
+
+
 
 
 
