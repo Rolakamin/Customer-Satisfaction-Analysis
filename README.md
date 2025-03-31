@@ -119,16 +119,7 @@ To enhance analysis, the following custom columns were created:
 )
 
 
- 
-
-
-
-
-
-
 ## Data Analysis and Visualization
-
-
 
 ### DAX Measures
 
