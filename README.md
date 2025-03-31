@@ -108,7 +108,10 @@ To enhance analysis, the following custom columns were created:
 
 - Delivery_Speed_Category
 
- [Insert screenshots showing the formulas used to create each custom column.]
+![Overall Satisfaction Screenshot](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/overall_satisfaction.png)
+ 
+
+
 
 
 ## Data Analysis and Visualization
