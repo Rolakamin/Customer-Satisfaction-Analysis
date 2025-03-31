@@ -79,7 +79,7 @@ Data types were standardized to ensure accurate calculations in Power BI.
 
 Null values were replaced with the mode (most frequent value) of each column using Power Query.
 
-[Insert screenshot showing how the mode was obtained using GROUP BY for Delivery_Experience.]
+![Plant Performance Screenshot](https://github.com/Rolakamin/Supplier-Quality-and-Performance/blob/main/plant_Performance.png)
 
 The same method was applied to Food_Quality and Delivery_Speed.
 
