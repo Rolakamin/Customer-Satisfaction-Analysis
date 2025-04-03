@@ -207,10 +207,43 @@ DIVIDE(
 )
 ```
 
+### Service_Attribute_Table and Avg_Service_Attribute
+
+In addition to the above measures, a dynamic method was implemented for analyzing customer satisfaction across key service attributes such as Delivery Experience, Food Quality, and Delivery Speed.
+A new table, **Service_Attribute_Table** was created to simplify the analysis and allow for easy comparison.This table was manually created using a Service Attribute column and holds the three key service attributes: Delivery Experience, Food Quality, and Delivery Speed.The table was then used to dynamically filter and calculate average ratings for each attribute.
+
+**DAX Formula for creating Service_Attribute_Table:**
+
+ ```DAX
+ Service_Attribute_Table = 
+DATATABLE("Service Attribute", STRING, { 
+    {"Delivery Experience"},
+    {"Food Quality"},
+    {"Delivery Speed"}
+})
+```
+
+The **Avg_Service_Attribute** measure was also created to calculate the average rating dynamically.The measure uses the **SWITCH function** to return the appropriate average rating for either Delivery Experience, Food Quality, or Delivery Speed.It was utilized in the visual to dynamically display the average ratings for each service attribute when selected, providing a clear view of customer satisfaction with each aspect of the service.
+
+**DAX Formula for Avg_Service_Attribute:**
+
+ ```DAX
+Avg_Service_Attribute = 
+SWITCH(
+    SELECTEDVALUE(Service_Attribute_Table[Service Attribute]),
+    "Delivery Experience", [Avg Delivery Experience],
+    "Delivery Speed", [Avg Delivery Speed],
+    "Food Quality", [Avg Food Quality]
+)
+```
+
+
 
 ### Data Visualization
 
 The customer satisfaction survey data was analyzed using Power BI and presented in a single-page dashboard. This dashboard provides insights into customer ratings, satisfaction levels, and key service factors influencing overall experience.
+
+
 
 
 
