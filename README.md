@@ -241,7 +241,7 @@ SWITCH(
 ### Data Visualization
 
 The customer satisfaction survey data was analyzed using Power BI and presented in a single-page dashboard. This dashboard offers comprehensive insights into customer ratings, satisfaction levels, and key service factors influencing the overall experience. It features interactive visuals that allow stakeholders to explore metrics such as satisfaction rates, net satisfaction scores, average service ratings, and order accuracy distributions.
-You can view the dashboard [here](https://github.com/Rolakamin/Adidas-Sales-Analysis/blob/main/adidas_sales_dashboard%20.png)
+You can view the dashboard [here](https://github.com/Rolakamin/Customer-Satisfaction-Analysis/blob/main/customer_satisfaction_analysis_dashboard.png)
 
 ### Results & Findings
 
