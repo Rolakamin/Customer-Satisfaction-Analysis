@@ -260,7 +260,7 @@ You can view the dashboard [here](https://github.com/Rolakamin/Customer-Satisfac
   reviewing operational workflows and investing in logistics or food preparation standards.
 - Establish a routine for analyzing customer feedback.This allows the business to quickly spot trends and proactively address areas needing improvement.
 
-### 
+### Challenges and Limitations
 
 1. The dataset included 660 non-responses(6.2%) out of 10,616 total responses. This non-response rate introduced potential bias, as the characteristics and opinions of non-respondents may have differed 
    systematically from those who participated. Such discrepancies could have affected the representativeness of the results, potentially skewing the overall understanding of customer satisfaction.
