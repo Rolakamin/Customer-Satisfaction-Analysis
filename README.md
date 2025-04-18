@@ -241,7 +241,40 @@ SWITCH(
 ### Data Visualization
 
 The customer satisfaction survey data was analyzed using Power BI and presented in a single-page dashboard. This dashboard offers comprehensive insights into customer ratings, satisfaction levels, and key service factors influencing the overall experience. It features interactive visuals that allow stakeholders to explore metrics such as satisfaction rates, net satisfaction scores, average service ratings, and order accuracy distributions.
-You can view the dashboard here.​
+You can view the dashboard [here](https://github.com/Rolakamin/Adidas-Sales-Analysis/blob/main/adidas_sales_dashboard%20.png)
+
+### Results & Findings
+
+- Only 29.77% of customers reported being satisfied. This indicates a substantial opportunity for service improvement.
+- The Net Satisfaction Score (NSS) stood at -40.47%. This reveals that dissatisfaction outweighed satisfaction among customers.
+- The average ratings for Delivery Experience (3.39), Food Quality (3.37), and Delivery Speed (3.36) suggest that customers had a neutral experience overall, with none of the categories excelling.
+- 66.98% of customers received accurate orders and 26.8% experienced inaccuracies,highlighting a key area needing attention.
+
+### Recommendations
+
+- Out of 10,616 total responses, 660 customers provided no answers. Though a small portion, it's important to investigate the cause which could be due to survey fatigue, unclear questions or repetitive 
+  questions. Consider simplifying the feedback form or ensuring the length and tone encourage completion.
+- Strive to gather full responses by communicating the value of feedback to customers and possibly offering incentives. This ensures more comprehensive insights and reduces analysis bias.
+- Enhance customer satisfaction by focusing on reducing **Order Inaccuracies** through improved quality checks and regular staff training. In addition,boost **Delivery Speed** and improve **Food Quality** by 
+  reviewing operational workflows and investing in logistics or food preparation standards.
+- Establish a routine for analyzing customer feedback.This allows the business to quickly spot trends and proactively address areas needing improvement.
+
+### 
+
+1. The dataset included 660 non-responses(6.2%) out of 10,616 total responses. This non-response rate introduced potential bias, as the characteristics and opinions of non-respondents may have differed 
+   systematically from those who participated. Such discrepancies could have affected the representativeness of the results, potentially skewing the overall understanding of customer satisfaction.
+   
+2. The dataset lacked timestamps or defined time periods for the survey responses. This absence made it impossible to analyze trends over time, such as monthly improvements or seasonal fluctuations. 
+   Consequently, the analysis could not assess progress or identify time-based patterns in customer satisfaction.
+
+3. The dataset did not contain information on customer demographics or specific order details. This limitation restricted the ability to compare characteristics between respondents and non-respondents, making it 
+   challenging to identify any existing patterns or biases in response behavior.
+
+   These limitations highlight areas for improvement in future data collection efforts to enhance the depth and accuracy of customer satisfaction analyses.​
+
+
+
+
 
 
 
